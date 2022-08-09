@@ -26,11 +26,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
 import IndivButton from '@/components/IndivButton.vue';
 import { evaluate } from 'mathjs';
 
-export default defineComponent({
+export default {
   data(): {
     calcResult: string;
     calcArgs: string;
@@ -142,5 +141,5 @@ export default defineComponent({
   components: {
     IndivButton,
   },
-});
+};
 </script>

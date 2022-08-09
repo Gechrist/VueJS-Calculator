@@ -3,12 +3,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-
-export default defineComponent({
+export default {
   props: {
     symbol: String,
     computeInput: Function,
   },
-});
+};
 </script>
