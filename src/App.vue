@@ -19,7 +19,7 @@
         :symbol="icon"
         v-for="icon in buttonsArray"
         :key="icon"
-        :computeInput="this.computeInput"
+        @computeInput="computeInput"
       />
     </div>
   </div>
